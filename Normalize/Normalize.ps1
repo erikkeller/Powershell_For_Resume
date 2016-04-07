@@ -104,7 +104,7 @@ Write-Host "Installing new SSO if necessary ..."
 # Install new version of SSO
 if (!(Test-Path "C:\Program Files\Sentillion\Agent"))
 {
-    Start-Process "msiexec" -ArgumentList "/i `"\\SoftwareRepo\Vergence\SSOandCM-x86.msi`" /q ADDLOCAL=DesktopComponents,Authenticator,BridgeWorks,ConfigService VAULTADDRESS=ssovault.contoso.org VAULTSECURITYTOKEN=594681d3-3fe4-4785-bcb5-7b342c3a5899 ALLOWBHOSETTING=YES REBOOT=ReallySuppress" -Wait -Verb RunAs
+    Start-Process "msiexec" -ArgumentList "/i `"\\SoftwareRepo\Vergence\SSOandCM-x86.msi`" /q ADDLOCAL=DesktopComponents,Authenticator,BridgeWorks,ConfigService VAULTADDRESS=ssovault.contoso.org VAULTSECURITYTOKEN=xxxx ALLOWBHOSETTING=YES REBOOT=ReallySuppress" -Wait -Verb RunAs
     #Config Setting for Citrix
     New-ItemProperty -Path "HKLM:\Software\Citrix\AuthManager" -Name ConnectionSecurityMode -Value "Any" -PropertyType string
 }
