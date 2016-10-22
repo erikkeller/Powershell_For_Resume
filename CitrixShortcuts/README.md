@@ -6,4 +6,4 @@ Others will call their IT department.
 
 This set of commandlets was created for those users.
 
-Uses some methods on a shell object to read shortcuts and then either save their info to a CSV, or re-create them depending on the commandlet run. Won't delete any, but it will overwrite shortcuts with the same name.
+Uses some methods on a shell object to read shortcuts and then either save their info to a CSV, or re-create them depending on the commandlet run. Won't delete any, but it will overwrite shortcuts with the same name. Because of the way the pin to taskbar/start menu methods work, it has to be run as the user you want to save the shortcuts as. The defaults are as generic as possible, so really it's pretty easy to use as a logon script or a batch file the users can run, so long as Powershell has been set up to run scripts. Doesn't need admin rights.
