@@ -1,0 +1,1 @@
+XA/XD 7.x lacked a robust solution to automate restarts of power managed devices, so I spent a few days using Shaun Ritchie's Rolling Reboot Script (http://euc.consulting/blog/xendesktop-7-rolling-reboot-script/) as inspiration and created my own. Comments do a pretty good job of describing what it does.
