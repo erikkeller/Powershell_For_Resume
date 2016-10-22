@@ -75,11 +75,8 @@
 .OUTPUTS
     Piped text updates, a csv file showing final status in directory specified by logPath.
 
-.LINK
-    http://www.corebts.com
-
 .NOTES
-    AUTHOR: Erik Keller - erik.keller@corebts.com
+    AUTHOR: Erik Keller - erikkeller1164@outlook.com
     TODO: multithreading for large environments, TESTING
 #>
 
