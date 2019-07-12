@@ -1,0 +1,1 @@
+A short script to query domain servers and come back with a list of services and the accounts they use for auditing purposes. Needs the RPC server to be listening which only has about a 50% success rate unless steps are taken to enable it on everything, but it cuts down on the amount of manual checking if there is no other management system available to perform this task.
