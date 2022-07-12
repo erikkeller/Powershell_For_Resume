@@ -5,3 +5,5 @@ This script resolved the issue by retrieving a list of active students and then 
 Uses an application registration in Azure AD along with a certificate for authentication to the Graph API.
 
 Not the fastest thing in the world, but still a lot faster than doing them by hand.
+
+Won't really work as-is due to stripping identifying information out of it since it was built just for that environment.
