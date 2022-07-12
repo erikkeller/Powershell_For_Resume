@@ -104,7 +104,7 @@ function Send-ADUserPasswordNotification
             continue
         }
         
-        # If a user does not have a DeSales email address
+        # If a user does not have a foo.bar email address
         if (($emailaddress -notlike "*@foo.bar") -and ($emailaddress -notlike "*@baz.bar"))
         {
             #$emailaddress = $testRecipient
